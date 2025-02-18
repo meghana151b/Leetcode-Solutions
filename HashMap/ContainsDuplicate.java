@@ -1,5 +1,5 @@
-##Leetcode Solutions
-##Solved Contains Duplicate 
+//Leetcode Solutions
+//Solved Contains Duplicate 
 
 
 
