@@ -10,6 +10,9 @@ class Solution {
                 return true;
                }
             }
-         }
+            numMap.put(nums[i],i);
+        }
+        return false;
+         
     }
 }
