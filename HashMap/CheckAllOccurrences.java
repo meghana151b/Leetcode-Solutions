@@ -12,7 +12,7 @@ class Solution{
       freqMap.put(c,freqMap.getOrDefault(c,0)+1);
     }
     //Get the frequency of first character
-int firstFreq=freqMap.value().iterate().next();
+int firstFreq=freqMap.get(s.charAt(0));
 
     //Check if all the frequencies match the first one
     for(int t:freqMap.value()){
