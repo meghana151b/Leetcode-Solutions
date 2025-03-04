@@ -5,7 +5,7 @@ class Solution {
     public int[] intersection(int[] nums1, int[] nums2) {
           Arrays.sort(nums1);  // Sort both arrays
         Arrays.sort(nums2);
-
+// creating a list
         List<Integer> result = new ArrayList<>();
         int i = 0, j = 0;
 
