@@ -2,7 +2,7 @@
 //Link:https://leetcode.com/problems/first-unique-character-in-a-string/?envType=problem-list-v2&envId=hash-table
 
 //Time Complexity:O(n)
-//Space Complexity:O(n)
+//Space Complexity:O(1)
 
 class Solution{
   public static int firstUniqueChar(String s){
