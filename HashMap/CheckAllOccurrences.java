@@ -6,6 +6,7 @@ class Solution{
     if(s==null || s.isEmpty()){
       return true;
   }
+    //HashMap 
     HashMap<String, Integer> freqMap=new HashMap<>();
     //Count character frequency
     for(char c:s.toCharArray()){
