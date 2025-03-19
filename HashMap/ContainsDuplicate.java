@@ -1,5 +1,6 @@
-//Leetcode Solutions
-//Solved Contains Duplicate 
+//Leetcode Solutions:Contains Duplicate
+//Time complexity:O(n)
+
 
 
 
