@@ -6,11 +6,13 @@
 
 class Program{
   public int lengthOfLastWord(String s){
+    //take length of string 
     int length=0;
     int i=s.length()-1;
     while(i>=0 && s.charAt(i)==' '){
       i--;
     }
+    //
     while(i>=0 && s.charAt(i)!=' '){
       length++;
       i--;
