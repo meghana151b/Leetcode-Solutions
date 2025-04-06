@@ -6,6 +6,7 @@
 
 class Solution{
   public static void distinctAvg(int[] nums){
+    //Inbuilt function is used
     Arrays.sort(nums);
     HashSet<Double>set=new HashSet<>();
     int left=0,right=nums.length-1;
