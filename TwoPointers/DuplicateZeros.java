@@ -3,7 +3,7 @@
 
 //Time Complexity:O(N)
 //Space Complexity:O(1)
-
+//Used Two Pointers Approach
 
 class Solution {
     public void duplicateZeros(int[] arr) {
