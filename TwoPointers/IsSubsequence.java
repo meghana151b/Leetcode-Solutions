@@ -3,6 +3,7 @@
 
 //Time Complexity:O(n)
 //Space Complexity:O(1)
+/// Two pointers approach
 
 class Solution{
   public static boolean isSubsequence(String s,String t){
