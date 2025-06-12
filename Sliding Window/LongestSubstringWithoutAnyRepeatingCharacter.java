@@ -1,7 +1,7 @@
 //LeetCode solution:LongestSubstringWithoutAnyRepeatingCharacter.java
 //Link:https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
 
-//Time Complexity:O(n^2)
+//Time Complexity:O(n)
 //Space Complexity:O(1)
 
 class Solution {
