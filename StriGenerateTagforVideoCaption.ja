@@ -1,0 +1,33 @@
+//Leetcode Program:Generate Tag for Video Caption
+//Link:https://leetcode.com/contest/weekly-contest-454/problems/generate-tag-for-video-caption/description/
+
+//Time Complexity:O(n)
+//Space Complexity:O(n)
+
+class Solution {
+    public String generateTag(String caption) {
+        String[] words = caption.split("\\s+");
+        StringBuilder sb = new StringBuilder("#");
+        boolean firstWordAdded = false;
+
+        for (String word : words) {
+            word = word.replaceAll("[^A-Za-z]", ""); // remove non-letters
+            if (word.isEmpty()) continue;
+
+            if (!firstWordAdded) {
+                sb.append(word.toLowerCase());
+                firstWordAdded = true;
+            } else {
+                sb.append(Character.toUpperCase(word.charAt(0)));
+                sb.append(word.substring(1).toLowerCase());
+            }
+        }
+
+        if (sb.length() > 100) {
+            return sb.substring(0, 100);
+        }
+
+        return sb.toString();
+    }
+}
+
