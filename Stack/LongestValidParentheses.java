@@ -1,3 +1,10 @@
+//LeetCode Program:Longest Valid Parentheses
+//Link:https://leetcode.com/problems/longest-valid-parentheses/
+
+//Time Complexity:O(n)
+//Space Complexity:O(n)
+
+
 public class Solution {
     public int longestValidParentheses(String s) {
         Stack<Integer> stack = new Stack<>();
