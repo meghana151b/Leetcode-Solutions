@@ -11,7 +11,7 @@ class Program{
       arr[i]=sum%10;
       carry=sum/10;
     }
-    if(carry>1){
+    if(carry>0){
       int[] newArr=new int[arr.length+1];
       newArr[0]=carry;
       System.arraycopy(arr, 0, newArr, 1,arr.length);
