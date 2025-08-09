@@ -16,7 +16,7 @@ class Rearrange{
         result[posIndex]=num;
         posIndex += 2;
       }else{
-        result[negIndex] += 2;
+        result[negIndex] =num;
         negIndex += 2;
       }
     }
